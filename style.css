@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ff9800;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #4cafef, #2196f3);
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+form button {
+    background: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #1976d2;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
