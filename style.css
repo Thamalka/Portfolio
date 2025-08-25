@@ -8,7 +8,7 @@
 
 
 body {
-  background-color: rgb(7, 7, 7) !important;
+  background-color: rgb(34, 30, 48) !important;
   color: white !important;
 }
 
@@ -70,12 +70,13 @@ body {
     transform: scale(1.1); /* Slight zoom effect */
     opacity: 0.9; /* Slight transparency change */
     /* Color remains the same */
+    
   }
 
 /* Skill bars */
 .skill-bar {
     height: 8px;
-    background: #1e293b;
+    background: #6a91cf;
     border-radius: 4px;
     overflow: hidden;
 }
